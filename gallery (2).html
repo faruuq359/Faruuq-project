@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gallery - Ma'mur School</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    .gallery {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    img {
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    a {
+      display: inline-block;
+      margin-top: 20px;
+      text-decoration: none;
+      color: purple;
+    }
+  </style>
+</head>
+<body>
+  <h1>Gallery</h1>
+  <div class="gallery">
+    <img src="img1.jpg" alt="Classroom">
+    <img src="img2.jpg" alt="Library">
+    <img src="img3.jpg" alt="Students">
+  </div>
+  <a href="index.html">← Back to Home</a>
+</body>
+</html>
